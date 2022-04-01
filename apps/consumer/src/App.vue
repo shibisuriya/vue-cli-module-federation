@@ -1,6 +1,7 @@
 <template>
   <div>
     <ConsumerComponent></ConsumerComponent>
+    <microFrontendComponentVue></microFrontendComponentVue>
   </div>
 </template>
 
@@ -8,7 +9,8 @@
   import ConsumerComponent from './components/ConsumerComponent.vue'
   export default {
     components: {
-      ConsumerComponent
+      ConsumerComponent,
+      microFrontendComponentVue: () => import('mfe/microFrontendComponentVue')
     } 
   }
 </script>
