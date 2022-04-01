@@ -10,7 +10,6 @@ module.exports = {
         exposes: {
           './microFrontendComponent': './src/components/microFrontendComponent.vue',
         },
-        shared: require('./package.json').dependencies,
       }),
     ],
   },

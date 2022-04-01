@@ -7,10 +7,11 @@
 
 <script>
   import ConsumerComponent from './components/ConsumerComponent.vue'
+  import microFrontendComponentVue from 'mfe/microFrontendComponentVue'
   export default {
     components: {
       ConsumerComponent,
-      microFrontendComponentVue: () => import('mfe/microFrontendComponentVue')
+      microFrontendComponentVue
     } 
   }
 </script>

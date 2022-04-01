@@ -11,7 +11,6 @@ module.exports = {
         remotes: {
           mfe: 'mfe@http://localhost:8001/remoteEntry.js',
         },
-        shared: require('./package.json').dependencies,
       }),
     ],
   },
